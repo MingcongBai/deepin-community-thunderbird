@@ -9,11 +9,11 @@
     }
   },
   "name": "Language: Polski (Polish)",
-  "description": "Thunderbird Beta Language Pack for Polski (pl) – Polish",
-  "version": "125.0.20240401.173510",
+  "description": "Thunderbird Language Pack for Polski (pl) – Polish",
+  "version": "125.0.20240423.190814",
   "languages": {
     "pl": {
-      "version": "20240401183145",
+      "version": "20240423195653",
       "chrome_resources": {
         "alerts": "chrome/pl/locale/pl/alerts/",
         "autoconfig": "chrome/pl/locale/pl/autoconfig/",

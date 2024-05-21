@@ -12,11 +12,11 @@
 ##
 ## Reference: https://www.mozilla.org/styleguide/communications/translation/
 
--brand-shorter-name = Thunderbird 测试版
--brand-short-name = Thunderbird 测试版
--brand-full-name = Mozilla Thunderbird 测试版
+-brand-shorter-name = Thunderbird
+-brand-short-name = Thunderbird
+-brand-full-name = Mozilla Thunderbird
 # This brand name can be used in messages where the product name needs to
 # remain unchanged across different versions (Daily, Beta, etc.).
 -brand-product-name = Thunderbird
 -vendor-short-name = Mozilla
-trademarkInfo = Mozilla Thunderbird 和 Thunderbird 徽标是属于 Mozilla 基金会的商标。
+trademarkInfo = Mozilla Thunderbird 和 Thunderbird 徽标是 Mozilla 基金会的商标。

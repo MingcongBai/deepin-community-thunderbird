@@ -9,11 +9,11 @@
     }
   },
   "name": "Language: Nynorsk (Norwegian Nynorsk)",
-  "description": "Thunderbird Beta Language Pack for Nynorsk (nn-NO) – Norwegian Nynorsk",
-  "version": "125.0.20240401.173510",
+  "description": "Thunderbird Language Pack for Nynorsk (nn-NO) – Norwegian Nynorsk",
+  "version": "125.0.20240423.190814",
   "languages": {
     "nn-NO": {
-      "version": "20240401183020",
+      "version": "20240423195530",
       "chrome_resources": {
         "alerts": "chrome/nn-NO/locale/nn-NO/alerts/",
         "autoconfig": "chrome/nn-NO/locale/nn-NO/autoconfig/",

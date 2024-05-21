@@ -9,11 +9,11 @@
     }
   },
   "name": "Language: Eesti (Estonian)",
-  "description": "Thunderbird Beta Language Pack for Eesti (et) – Estonian",
-  "version": "125.0.20240401.173510",
+  "description": "Thunderbird Language Pack for Eesti (et) – Estonian",
+  "version": "125.0.20240423.190814",
   "languages": {
     "et": {
-      "version": "20240401183509",
+      "version": "20240423200226",
       "chrome_resources": {
         "alerts": "chrome/et/locale/et/alerts/",
         "autoconfig": "chrome/et/locale/et/autoconfig/",

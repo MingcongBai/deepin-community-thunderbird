@@ -21,3 +21,7 @@ porting-mips64el/skia-Disable-musttail-on-mips64.patch
 debian-hacks/Relax-cargo-version-requirement.patch
 fixes/Install-vaapitest-v4l2test-only-when-build.patch
 debian-hacks/Relax-minimum-supported-rust-version-to-1.70.patch
+porting-loong64/0001-Fix-libyuv-build-with-LSX-LASX.patch
+porting-loong64/0002-Keep-unsigned-32-bit-parameter-sign-extended-in-regi.patch
+porting-loong64/0003-Add-missing-loongarch-lsx-code-for-libpng.patch
+porting-loong64/0004-Add-support-for-LoongArch64.patch

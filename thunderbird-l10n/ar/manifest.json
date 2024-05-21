@@ -9,11 +9,11 @@
     }
   },
   "name": "Language: العربية (Arabic)",
-  "description": "Thunderbird Beta Language Pack for العربية (ar) – Arabic",
-  "version": "125.0.20240401.173510",
+  "description": "Thunderbird Language Pack for العربية (ar) – Arabic",
+  "version": "125.0.20240423.190814",
   "languages": {
     "ar": {
-      "version": "20240401183337",
+      "version": "20240423195956",
       "chrome_resources": {
         "alerts": "chrome/ar/locale/ar/alerts/",
         "autoconfig": "chrome/ar/locale/ar/autoconfig/",

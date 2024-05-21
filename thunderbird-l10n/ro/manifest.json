@@ -9,11 +9,11 @@
     }
   },
   "name": "Language: Română (Romanian)",
-  "description": "Thunderbird Beta Language Pack for Română (ro) – Romanian",
-  "version": "125.0.20240401.173510",
+  "description": "Thunderbird Language Pack for Română (ro) – Romanian",
+  "version": "125.0.20240423.190814",
   "languages": {
     "ro": {
-      "version": "20240401183306",
+      "version": "20240423200023",
       "chrome_resources": {
         "alerts": "chrome/ro/locale/ro/alerts/",
         "autoconfig": "chrome/ro/locale/ro/autoconfig/",

@@ -14,41 +14,49 @@
 
 -brand-shorter-name =
     { $case ->
-        [gen] Thunderbirda Beta
-        [dat] Thunderbirdowi Beta
-        [acc] Thunderbirda Beta
-        [ins] Thunderbirdem Beta
-        [loc] Thunderbirdzie Beta
-       *[nom] Thunderbird Beta
+       *[nom] Thunderbird
+        [gen] Thunderbirda
+        [dat] Thunderbirdowi
+        [acc] Thunderbirda
+        [ins] Thunderbirdem
+        [loc] Thunderbirdzie
     }
 -brand-short-name =
     { $case ->
-        [gen] Thunderbirda Beta
-        [dat] Thunderbirdowi Beta
-        [acc] Thunderbirda Beta
-        [ins] Thunderbirdem Beta
-        [loc] Thunderbirdzie Beta
-       *[nom] Thunderbird Beta
+       *[nom] Thunderbird
+        [gen] Thunderbirda
+        [dat] Thunderbirdowi
+        [acc] Thunderbirda
+        [ins] Thunderbirdem
+        [loc] Thunderbirdzie
     }
 -brand-full-name =
     { $case ->
-        [gen] Mozilli Thunderbird Beta
-        [dat] Mozilli Thunderbird Beta
-        [acc] Mozillę Thunderbird Beta
-        [ins] Mozillą Thunderbird Beta
-        [loc] Mozilli Thunderbird Beta
-       *[nom] Mozilla Thunderbird Beta
+       *[nom] Mozilla Thunderbird
+        [gen] Mozilli Thunderbird
+        [dat] Mozilli Thunderbird
+        [acc] Mozillę Thunderbird
+        [ins] Mozillą Thunderbird
+        [loc] Mozilli Thunderbird
     }
 # This brand name can be used in messages where the product name needs to
 # remain unchanged across different versions (Daily, Beta, etc.).
--brand-product-name = Thunderbird
+-brand-product-name =
+    { $case ->
+       *[nom] Thunderbird
+        [gen] Thunderbirda
+        [dat] Thunderbirdowi
+        [acc] Thunderbirda
+        [ins] Thunderbirdem
+        [loc] Thunderbirdzie
+    }
 -vendor-short-name =
     { $case ->
+       *[nom] Mozilla
         [gen] Mozilli
         [dat] Mozilli
         [acc] Mozillę
         [ins] Mozillą
         [loc] Mozilli
-       *[nom] Mozilla
     }
 trademarkInfo = Mozilla Thunderbird oraz logotyp Thunderbird to znaki towarowe Mozilla Foundation.

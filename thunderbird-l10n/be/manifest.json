@@ -9,11 +9,11 @@
     }
   },
   "name": "Language: Беларуская (Belarusian)",
-  "description": "Thunderbird Beta Language Pack for Беларуская (be) – Belarusian",
-  "version": "125.0.20240401.173510",
+  "description": "Thunderbird Language Pack for Беларуская (be) – Belarusian",
+  "version": "125.0.20240423.190814",
   "languages": {
     "be": {
-      "version": "20240401183504",
+      "version": "20240423200120",
       "chrome_resources": {
         "alerts": "chrome/be/locale/be/alerts/",
         "autoconfig": "chrome/be/locale/be/autoconfig/",

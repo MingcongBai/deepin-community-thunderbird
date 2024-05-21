@@ -9,11 +9,11 @@
     }
   },
   "name": "Language: English (GB)",
-  "description": "Thunderbird Beta Language Pack for English (GB) (en-GB)",
-  "version": "125.0.20240401.173510",
+  "description": "Thunderbird Language Pack for English (GB) (en-GB)",
+  "version": "125.0.20240423.190814",
   "languages": {
     "en-GB": {
-      "version": "20240401183221",
+      "version": "20240423195937",
       "chrome_resources": {
         "alerts": "chrome/en-GB/locale/en-GB/alerts/",
         "autoconfig": "chrome/en-GB/locale/en-GB/autoconfig/",

@@ -14,45 +14,45 @@
 
 -brand-shorter-name =
     { $case ->
-        [gen] Thunderbirdu Beta
-        [dat] Thunderbirdu Beta
-        [acc] Thunderbird Beta
-        [loc] Thunderbirde Beta
-        [ins] Thunderbirdom Beta
-       *[nom] Thunderbird Beta
-    }
-    .gender = masculine
--brand-short-name =
-    { $case ->
-        [gen] Thunderbirdu Beta
-        [dat] Thunderbirdu Beta
-        [acc] Thunderbird Beta
-        [loc] Thunderbirde Beta
-        [ins] Thunderbirdom Beta
-       *[nom] Thunderbird Beta
-    }
-    .gender = masculine
--brand-full-name = Mozilla Thunderbird Beta
-# This brand name can be used in messages where the product name needs to
-# remain unchanged across different versions (Daily, Beta, etc.).
--brand-product-name =
-    { $case ->
+       *[nom] Thunderbird
         [gen] Thunderbirdu
         [dat] Thunderbirdu
         [acc] Thunderbird
         [loc] Thunderbirde
         [ins] Thunderbirdom
+    }
+    .gender = masculine
+-brand-short-name =
+    { $case ->
        *[nom] Thunderbird
+        [gen] Thunderbirdu
+        [dat] Thunderbirdu
+        [acc] Thunderbird
+        [loc] Thunderbirde
+        [ins] Thunderbirdom
+    }
+    .gender = masculine
+-brand-full-name = Mozilla Thunderbird
+# This brand name can be used in messages where the product name needs to
+# remain unchanged across different versions (Daily, Beta, etc.).
+-brand-product-name =
+    { $case ->
+       *[nom] Thunderbird
+        [gen] Thunderbirdu
+        [dat] Thunderbirdu
+        [acc] Thunderbird
+        [loc] Thunderbirde
+        [ins] Thunderbirdom
     }
     .gender = masculine
 -vendor-short-name =
     { $case ->
+       *[nom] Mozilla
         [gen] Mozilly
         [dat] Mozille
         [acc] Mozillu
         [loc] Mozille
         [ins] Mozillou
-       *[nom] Mozilla
     }
     .gender = feminine
 trademarkInfo = Mozilla Thunderbird a logá Thunderbird sú ochranné známky patriace Mozilla Foundation.

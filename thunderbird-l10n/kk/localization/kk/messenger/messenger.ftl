@@ -187,6 +187,36 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+context-menu-mark-read =
+    .aria-label = Оқылған ретінде белгілеу
+    .tooltiptext = Оқылған ретінде белгілеу
+context-menu-mark-unread =
+    .aria-label = Оқылмаған ретінде белгілеу
+    .tooltiptext = Оқылмаған ретінде белгілеу
+context-menu-mark-reply =
+    .aria-label = Жауап беру
+    .tooltiptext = Жауап беру
+context-menu-archive =
+    .aria-label = Архивтеу
+    .tooltiptext = Архивтеу
+context-menu-mark-junk =
+    .aria-label = Спам ретінде белгілеу
+    .tooltiptext = Спам ретінде белгілеу
+mail-context-menu-open =
+    .label = Ашу
+    .accesskey = А
+mail-context-menu-reply =
+    .label = Жауап беру
+    .accesskey = п
+mail-context-menu-forward-redirect =
+    .label = Әрі қарай жіберу және қайта бағдарлау
+    .accesskey = р
+mail-context-menu-organize =
+    .label = Басқару
+    .accesskey = р
+mail-context-menu-threads =
+    .label = Ағындар
+    .accesskey = ы
 context-menu-redirect-msg =
     .label = Қайта бағдарлау
 # This menu item is for canceling an NNTP message
@@ -207,6 +237,24 @@ mail-context-undelete-messages =
             [one] Хабарламаны өшіруді болдырмау
            *[other] Таңдалған хабарламалар өшіруін болдырмау
         }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-delete =
+    .label =
+        { $count ->
+            [one] Хабарламаны өшіру
+           *[other] Таңдалған хабарламаларды өшіру
+        }
+    .tooltiptext = { mail-context-messages-delete.label }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-undelete =
+    .label =
+        { $count ->
+            [one] Хабарламаны өшіруді болдырмау
+           *[other] Таңдалған хабарламалар өшіруін болдырмау
+        }
+    .tooltiptext = { mail-context-messages-undelete.label }
 context-menu-decrypt-to-folder2 =
     .label = Шифрлеуі ашылған көшірмесін келесі жерде жасау
     .accesskey = у
@@ -224,6 +272,9 @@ message-header-recipient-avatar =
     .alt = { $address }профиль суреті.
 
 ## Message header cutomize panel
+
+
+## Message header customize panel
 
 message-header-customize-panel-title = Хабарлама тақырыптаманың баптаулары
 message-header-customize-button-style =
@@ -391,7 +442,7 @@ quick-filter-bar-toggle =
     .label = Жедел сүзгі панелі
     .accesskey = Ж
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = д
 

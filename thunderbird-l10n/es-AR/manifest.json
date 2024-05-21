@@ -9,11 +9,11 @@
     }
   },
   "name": "Language: Español (AR) (Spanish, Argentina)",
-  "description": "Thunderbird Beta Language Pack for Español (AR) (es-AR) – Spanish, Argentina",
-  "version": "125.0.20240401.173510",
+  "description": "Thunderbird Language Pack for Español (AR) (es-AR) – Spanish, Argentina",
+  "version": "125.0.20240423.190814",
   "languages": {
     "es-AR": {
-      "version": "20240401183302",
+      "version": "20240423200019",
       "chrome_resources": {
         "alerts": "chrome/es-AR/locale/es-AR/alerts/",
         "autoconfig": "chrome/es-AR/locale/es-AR/autoconfig/",

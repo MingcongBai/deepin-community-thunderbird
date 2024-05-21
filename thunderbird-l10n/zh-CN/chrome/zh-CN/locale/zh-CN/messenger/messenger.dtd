@@ -341,7 +341,7 @@
 <!ENTITY forwardAsInline.accesskey "I">
 <!ENTITY forwardAsAttachmentCmd.label "附件">
 <!ENTITY forwardAsAttachmentCmd.accesskey "A">
-<!ENTITY editAsNewMsgCmd.label "作为新消息编辑">
+<!ENTITY editAsNewMsgCmd.label "作为新邮件编辑">
 <!ENTITY editAsNewMsgCmd.accesskey "E">
 <!ENTITY editAsNewMsgCmd.key "e">
 <!ENTITY editDraftMsgCmd.label "编辑草稿邮件">
@@ -492,7 +492,7 @@
 <!ENTITY errorConsoleCmd.commandkey "j">
 
 <!-- Mail Toolbar -->
-<!ENTITY getMsgButton1.label "获取消息">
+<!ENTITY getMsgButton1.label "收取邮件">
 <!ENTITY newMsgButton.label "新建消息">
 <!ENTITY replyButton.label "回复">
 <!ENTITY replyAllButton.label "全部回复">
@@ -593,7 +593,7 @@
 <!ENTITY folderSizeColumn.label "大小">
 
 <!-- Folder Pane Context Menu -->
-<!ENTITY folderContextGetMessages.label "获取消息">
+<!ENTITY folderContextGetMessages.label "收取邮件">
 <!ENTITY folderContextGetMessages.accesskey "G">
 <!ENTITY folderContextMarkAllFoldersRead.label "标记所有文件夹为已读">
 <!ENTITY folderContextPauseAllUpdates.label "暂停所有更新">
@@ -713,7 +713,7 @@
 <!ENTITY contextOpenConversation.accesskey "n">
 <!ENTITY contextOpenContainingFolder.label "打开文件夹内的消息">
 <!ENTITY contextOpenContainingFolder.accesskey "n">
-<!ENTITY contextEditMsgAsNew.label "作为新消息编辑">
+<!ENTITY contextEditMsgAsNew.label "作为新邮件编辑">
 <!ENTITY contextEditMsgAsNew.accesskey "E">
 <!ENTITY contextEditDraftMsg.label "编辑草稿邮件">
 <!ENTITY contextEditTemplate.label "编辑模板">

@@ -9,11 +9,11 @@
     }
   },
   "name": "Language: Tiếng Việt (Vietnamese)",
-  "description": "Thunderbird Beta Language Pack for Tiếng Việt (vi) – Vietnamese",
-  "version": "125.0.20240401.173510",
+  "description": "Thunderbird Language Pack for Tiếng Việt (vi) – Vietnamese",
+  "version": "125.0.20240423.190814",
   "languages": {
     "vi": {
-      "version": "20240401183357",
+      "version": "20240423200046",
       "chrome_resources": {
         "alerts": "chrome/vi/locale/vi/alerts/",
         "autoconfig": "chrome/vi/locale/vi/autoconfig/",

@@ -9,11 +9,11 @@
     }
   },
   "name": "Language: 简体中文 (Simplified Chinese)",
-  "description": "Thunderbird Beta Language Pack for 简体中文 (zh-CN) – Simplified Chinese",
-  "version": "125.0.20240401.173510",
+  "description": "Thunderbird Language Pack for 简体中文 (zh-CN) – Simplified Chinese",
+  "version": "125.0.20240423.190814",
   "languages": {
     "zh-CN": {
-      "version": "20240401183441",
+      "version": "20240423200129",
       "chrome_resources": {
         "alerts": "chrome/zh-CN/locale/zh-CN/alerts/",
         "autoconfig": "chrome/zh-CN/locale/zh-CN/autoconfig/",

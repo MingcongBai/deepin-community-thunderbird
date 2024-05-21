@@ -190,6 +190,36 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+context-menu-mark-read =
+    .aria-label = Ako pśecytany markěrowaś
+    .tooltiptext = Ako pśecytany markěrowaś
+context-menu-mark-unread =
+    .aria-label = Ako njepśecytany markěrowaś
+    .tooltiptext = Ako njepśecytany markěrowaś
+context-menu-mark-reply =
+    .aria-label = Wótegroniś
+    .tooltiptext = Wótegroniś
+context-menu-archive =
+    .aria-label = Archiwěrowaś
+    .tooltiptext = Archiwěrowaś
+context-menu-mark-junk =
+    .aria-label = Ako cajk markěrowaś
+    .tooltiptext = Ako cajk markěrowaś
+mail-context-menu-open =
+    .label = Wócyniś
+    .accesskey = c
+mail-context-menu-reply =
+    .label = Wótegroniś
+    .accesskey = g
+mail-context-menu-forward-redirect =
+    .label = Dalej pósrědniś a wobwjasć
+    .accesskey = D
+mail-context-menu-organize =
+    .label = Organizěrowaś
+    .accesskey = O
+mail-context-menu-threads =
+    .label = Nitki
+    .accesskey = N
 context-menu-redirect-msg =
     .label = Dalej pósrědniś
 # This menu item is for canceling an NNTP message
@@ -213,6 +243,28 @@ mail-context-undelete-messages =
             [one] Powěsć wótnowiś
            *[other] Wubrane powěsći wótnowiś
         }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-delete =
+    .label =
+        { $count ->
+            [one] { $count } wubranu powěsć lašowaś
+            [two] { $count } wubranej powěsći lašowaś
+            [few] { $count } wubrane powěsći lašowaś
+           *[other] { $count } wubranych powěsćow lašowaś
+        }
+    .tooltiptext = { mail-context-messages-delete.label }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-undelete =
+    .label =
+        { $count ->
+            [one] { $count } wubranu powěsć wótnowiś
+            [two] { $count } wubranej powěsći wótnowiś
+            [few] { $count } wubrane powěsći wótnowiś
+           *[other] { $count } wubranych powěsćow wótnowiś
+        }
+    .tooltiptext = { mail-context-messages-undelete.label }
 context-menu-decrypt-to-folder2 =
     .label = Skoděrowanu kopiju napóraś w
     .accesskey = S
@@ -230,6 +282,9 @@ message-header-recipient-avatar =
     .alt = Profilowy wobraz { $address }.
 
 ## Message header cutomize panel
+
+
+## Message header customize panel
 
 message-header-customize-panel-title = Nastajenja głowy powěsći
 message-header-customize-button-style =
@@ -401,7 +456,7 @@ quick-filter-bar-toggle =
     .label = Rědka spěšnego filtra
     .accesskey = l
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
 

@@ -501,5 +501,28 @@ apply-current-view-to-folder-message = Aplicar a exibição da pasta atual a { $
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Aplicar a exibição da pasta atual a { $name } e seus filhos?
+# Variables:
+# $unread (Number) - Number of unread messages in thread.
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-unread-count =
+    { $unread ->
+        [one]
+            { $total ->
+                [one] <span>1</span> mensagem não lidas de <span>1</span>
+               *[other] <span>1</span> mensagem não lidas de <span>{ $total }</span>
+            }
+       *[other]
+            { $total ->
+                [one] <span>{ $unread }</span> mensagens não lidas de <span>1</span>
+               *[other] <span>{ $unread }</span> mensagens não lidas de <span>{ $total }</span>
+            }
+    }
+# Variables:
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-count =
+    { $total ->
+        [one] <span>1</span> mensagem
+       *[other] <span>{ $total }</span> mensagens
+    }
 threadpane-card-menu-button =
     .title = Menu de mensagens

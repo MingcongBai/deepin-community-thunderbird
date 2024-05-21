@@ -14,49 +14,41 @@
 
 -brand-shorter-name =
     { $sklon ->
-        [rodilnik] Thunderbirda Beta
-        [dajalnik] Thunderbirdu Beta
-        [tozilnik] Thunderbird Beta
-        [mestnik] Thunderbirdu Beta
-        [orodnik] Thunderbirdom Beta
-       *[imenovalnik] Thunderbird Beta
-    }
--brand-short-name =
-    { $sklon ->
-        [rodilnik] Thunderbirda Beta
-        [dajalnik] Thunderbirdu Beta
-        [tozilnik] Thunderbird Beta
-        [mestnik] Thunderbirdu Beta
-        [orodnik] Thunderbirdom Beta
-       *[imenovalnik] Thunderbird Beta
-    }
--brand-full-name =
-    { $sklon ->
-        [rodilnik] Mozilla Thunderbirda Beta
-        [dajalnik] Mozilla Thunderbirdu Beta
-        [tozilnik] Mozilla Thunderbird Beta
-        [mestnik] Mozilla Thunderbirdu Beta
-        [orodnik] Mozilla Thunderbirdom Beta
-       *[imenovalnik] Mozilla Thunderbird Beta
-    }
-# This brand name can be used in messages where the product name needs to
-# remain unchanged across different versions (Daily, Beta, etc.).
--brand-product-name =
-    { $sklon ->
+       *[imenovalnik] Thunderbird
         [rodilnik] Thunderbirda
         [dajalnik] Thunderbirdu
         [tozilnik] Thunderbird
         [mestnik] Thunderbirdu
         [orodnik] Thunderbirdom
+    }
+-brand-short-name =
+    { $sklon ->
        *[imenovalnik] Thunderbird
+        [rodilnik] Thunderbirda
+        [dajalnik] Thunderbirdu
+        [tozilnik] Thunderbird
+        [mestnik] Thunderbirdu
+        [orodnik] Thunderbirdom
+    }
+-brand-full-name = Mozilla Thunderbird
+# This brand name can be used in messages where the product name needs to
+# remain unchanged across different versions (Daily, Beta, etc.).
+-brand-product-name =
+    { $sklon ->
+       *[imenovalnik] Thunderbird
+        [rodilnik] Thunderbirda
+        [dajalnik] Thunderbirdu
+        [tozilnik] Thunderbird
+        [mestnik] Thunderbirdu
+        [orodnik] Thunderbirdom
     }
 -vendor-short-name =
     { $sklon ->
+       *[imenovalnik] Mozilla
         [rodilnik] Mozille
         [dajalnik] Mozilli
         [tozilnik] Mozillo
         [mestnik] Mozilli
         [orodnik] Mozillo
-       *[imenovalnik] Mozilla
     }
-trademarkInfo = Mozilla Thunderbird in logotipi Thunderbirda so blagovne znamke organizacije Mozilla Foundation.
+trademarkInfo = Mozilla Thunderbird in logotip Thunderbirda sta blagovni znamki Mozilla Foundation.

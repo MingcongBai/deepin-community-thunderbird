@@ -528,25 +528,73 @@ apply-current-view-to-folder-with-children-message = Gosod golwg y ffolder gyfre
 # Variables:
 # $unread (Number) - Number of unread messages in thread.
 # $total (Number) - Number of messages in thread.
-threadpane-sort-header-unread =
-    { $total ->
-        [zero] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> heb ei ddarllen o <span data-l10n-name="threadpane-sort-header-total-count"> { $total }</span> neges
-        [one] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> heb ei ddarllen o <span data-l10n-name="threadpane-sort-header-total-count"> { $total }</span> neges
-        [two] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> heb ei ddarllen o <span data-l10n-name="threadpane-sort-header-total-count"> { $total }</span> neges
-        [few] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> heb ei ddarllen o <span data-l10n-name="threadpane-sort-header-total-count"> { $total }</span> neges
-        [many] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> heb ei ddarllen o <span data-l10n-name="threadpane-sort-header-total-count"> { $total }</span> neges
-       *[other] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> heb ei ddarllen o <span data-l10n-name="threadpane-sort-header-total-count"> { $total }</span> neges
+threadpane-sort-header-unread-count =
+    { $unread ->
+        [zero]
+            { $total ->
+                [zero] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+                [one] <span>{ $unread }</span> heb eu darllen{ " " }o <span>1</span> neges
+                [two] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+                [few] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+                [many] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+               *[other] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+            }
+        [one]
+            { $total ->
+                [zero] <span>1</span> heb ei ddarllen{ " " }o <span>{ $total }</span> neges
+                [one] <span>1</span> heb ei ddarllen{ " " }o <span>1</span> neges
+                [two] <span>1</span> heb ei ddarllen{ " " }o <span>{ $total }</span> neges
+                [few] <span>1</span> heb ei ddarllen{ " " }o <span>{ $total }</span> neges
+                [many] <span>1</span> heb ei ddarllen{ " " }o <span>{ $total }</span> neges
+               *[other] <span>1</span> heb ei ddarllen{ " " }o <span>{ $total }</span> neges
+            }
+        [two]
+            { $total ->
+                [zero] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+                [one] <span>{ $unread }</span> heb eu darllen{ " " }o <span>1</span> neges
+                [two] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+                [few] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+                [many] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+               *[other] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+            }
+        [few]
+            { $total ->
+                [zero] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+                [one] <span>{ $unread }</span> heb eu darllen{ " " }o <span>1</span> neges
+                [two] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+                [few] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+                [many] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+               *[other] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+            }
+        [many]
+            { $total ->
+                [zero] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+                [one] <span>{ $unread }</span> heb eu darllen{ " " }o <span>1</span> neges
+                [two] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+                [few] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+                [many] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+               *[other] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+            }
+       *[other]
+            { $total ->
+                [zero] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+                [one] <span>{ $unread }</span> heb eu darllen{ " " }o <span>1</span> neges
+                [two] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+                [few] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+                [many] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+               *[other] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+            }
     }
 # Variables:
 # $total (Number) - Number of messages in thread.
-threadpane-sort-header =
+threadpane-sort-header-count =
     { $total ->
-        [zero] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> neges
-        [one] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> neges
-        [two] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> neges
-        [few] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> neges
-        [many] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> neges
-       *[other] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> neges
+        [zero] <span>{ $total }</span> neges
+        [one] <span>1</span> neges
+        [two] <span>{ $total }</span> neges
+        [few] <span>{ $total }</span> neges
+        [many] <span>{ $total }</span> neges
+       *[other] <span>{ $total }</span> neges
     }
 threadpane-card-menu-button =
     .title = Dewislen negeseuon

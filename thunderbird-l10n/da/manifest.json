@@ -9,11 +9,11 @@
     }
   },
   "name": "Language: Dansk (Danish)",
-  "description": "Thunderbird Beta Language Pack for Dansk (da) – Danish",
-  "version": "125.0.20240401.173510",
+  "description": "Thunderbird Language Pack for Dansk (da) – Danish",
+  "version": "125.0.20240423.190814",
   "languages": {
     "da": {
-      "version": "20240401183243",
+      "version": "20240423195531",
       "chrome_resources": {
         "alerts": "chrome/da/locale/da/alerts/",
         "autoconfig": "chrome/da/locale/da/autoconfig/",

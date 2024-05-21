@@ -9,11 +9,11 @@
     }
   },
   "name": "Language: עברית (Hebrew)",
-  "description": "Thunderbird Beta Language Pack for עברית (he) – Hebrew",
-  "version": "125.0.20240401.173510",
+  "description": "Thunderbird Language Pack for עברית (he) – Hebrew",
+  "version": "125.0.20240423.190814",
   "languages": {
     "he": {
-      "version": "20240401183408",
+      "version": "20240423195641",
       "chrome_resources": {
         "alerts": "chrome/he/locale/he/alerts/",
         "autoconfig": "chrome/he/locale/he/autoconfig/",

@@ -9,11 +9,11 @@
     }
   },
   "name": "Language: Asturianu (Asturian)",
-  "description": "Thunderbird Beta Language Pack for Asturianu (ast) – Asturian",
-  "version": "125.0.20240401.173510",
+  "description": "Thunderbird Language Pack for Asturianu (ast) – Asturian",
+  "version": "125.0.20240423.190814",
   "languages": {
     "ast": {
-      "version": "20240401183419",
+      "version": "20240423200037",
       "chrome_resources": {
         "alerts": "chrome/ast/locale/ast/alerts/",
         "autoconfig": "chrome/ast/locale/ast/autoconfig/",

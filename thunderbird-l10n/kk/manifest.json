@@ -9,11 +9,11 @@
     }
   },
   "name": "Language: қазақ тілі (Kazakh)",
-  "description": "Thunderbird Beta Language Pack for қазақ тілі (kk) – Kazakh",
-  "version": "125.0.20240401.173510",
+  "description": "Thunderbird Language Pack for қазақ тілі (kk) – Kazakh",
+  "version": "125.0.20240423.190814",
   "languages": {
     "kk": {
-      "version": "20240401183443",
+      "version": "20240423195739",
       "chrome_resources": {
         "alerts": "chrome/kk/locale/kk/alerts/",
         "autoconfig": "chrome/kk/locale/kk/autoconfig/",

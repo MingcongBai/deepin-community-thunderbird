@@ -9,11 +9,11 @@
     }
   },
   "name": "Language: Українська (Ukrainian)",
-  "description": "Thunderbird Beta Language Pack for Українська (uk) – Ukrainian",
-  "version": "125.0.20240401.173510",
+  "description": "Thunderbird Language Pack for Українська (uk) – Ukrainian",
+  "version": "125.0.20240423.190814",
   "languages": {
     "uk": {
-      "version": "20240401183229",
+      "version": "20240423195922",
       "chrome_resources": {
         "alerts": "chrome/uk/locale/uk/alerts/",
         "autoconfig": "chrome/uk/locale/uk/autoconfig/",

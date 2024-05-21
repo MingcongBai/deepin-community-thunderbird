@@ -9,11 +9,11 @@
     }
   },
   "name": "Language: 한국어 (Korean)",
-  "description": "Thunderbird Beta Language Pack for 한국어 (ko) – Korean",
-  "version": "125.0.20240401.173510",
+  "description": "Thunderbird Language Pack for 한국어 (ko) – Korean",
+  "version": "125.0.20240423.190814",
   "languages": {
     "ko": {
-      "version": "20240401183528",
+      "version": "20240423195821",
       "chrome_resources": {
         "alerts": "chrome/ko/locale/ko/alerts/",
         "autoconfig": "chrome/ko/locale/ko/autoconfig/",

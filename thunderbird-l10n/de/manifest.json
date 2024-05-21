@@ -9,11 +9,11 @@
     }
   },
   "name": "Language: Deutsch (German)",
-  "description": "Thunderbird Beta Language Pack for Deutsch (de) – German",
-  "version": "125.0.20240401.173510",
+  "description": "Thunderbird Language Pack for Deutsch (de) – German",
+  "version": "125.0.20240423.190814",
   "languages": {
     "de": {
-      "version": "20240401183325",
+      "version": "20240423195612",
       "chrome_resources": {
         "alerts": "chrome/de/locale/de/alerts/",
         "autoconfig": "chrome/de/locale/de/autoconfig/",

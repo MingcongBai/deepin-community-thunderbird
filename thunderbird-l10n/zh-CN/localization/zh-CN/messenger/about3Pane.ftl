@@ -163,12 +163,12 @@ quick-filter-bar-gloda-upsell-line2 = 请再次按“回车” 键继续搜索�
 ## Folder pane
 
 folder-pane-get-messages-button =
-    .title = 获取消息
+    .title = 收取邮件
 folder-pane-get-all-messages-menuitem =
     .label = 获取所有新消息
     .accesskey = G
 folder-pane-write-message-button = 写信
-    .title = 撰写新消息
+    .title = 撰写新邮件
 folder-pane-more-menu-button =
     .title = 文件夹窗格选项
 # Context menu item to show/hide different folder types in the folder pane
@@ -176,10 +176,10 @@ folder-pane-header-folder-modes =
     .label = 文件夹模式
 # Context menu item to toggle display of "Get messages" button in folder pane header
 folder-pane-header-context-toggle-get-messages =
-    .label = 显示“获取消息”
+    .label = 显示“收取邮件”
 # Context menu item to toggle display of "New Message" button in folder pane header
 folder-pane-header-context-toggle-new-message =
-    .label = 显示“新建消息”
+    .label = 显示“写信”
 folder-pane-header-context-hide =
     .label = 隐藏文件夹窗格标题
 folder-pane-show-total-toggle =
@@ -480,9 +480,9 @@ apply-current-view-to-folder-with-children-message = 要将当前文件夹的视
 # Variables:
 # $unread (Number) - Number of unread messages in thread.
 # $total (Number) - Number of messages in thread.
-threadpane-sort-header-unread = <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> 个未读/共 <span data-l10n-name="threadpane-sort-header-total-count"> { $total }</span> 条消息
+threadpane-sort-header-unread-count = <span>{ $unread }</span> 封未读邮件（共 <span>{ $total }</span> 封邮件）
 # Variables:
 # $total (Number) - Number of messages in thread.
-threadpane-sort-header = <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> 条消息
+threadpane-sort-header-count = <span>{ $total }</span> 封邮件
 threadpane-card-menu-button =
     .title = 消息菜单

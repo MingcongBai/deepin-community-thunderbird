@@ -9,11 +9,11 @@
     }
   },
   "name": "Language: Slovenčina (Slovak)",
-  "description": "Thunderbird Beta Language Pack for Slovenčina (sk) – Slovak",
-  "version": "125.0.20240401.173510",
+  "description": "Thunderbird Language Pack for Slovenčina (sk) – Slovak",
+  "version": "125.0.20240423.190814",
   "languages": {
     "sk": {
-      "version": "20240401183430",
+      "version": "20240423200151",
       "chrome_resources": {
         "alerts": "chrome/sk/locale/sk/alerts/",
         "autoconfig": "chrome/sk/locale/sk/autoconfig/",

@@ -9,11 +9,11 @@
     }
   },
   "name": "Language: Melayu (Malay)",
-  "description": "Thunderbird Beta Language Pack for Melayu (ms) – Malay",
-  "version": "125.0.20240401.173510",
+  "description": "Thunderbird Language Pack for Melayu (ms) – Malay",
+  "version": "125.0.20240423.190814",
   "languages": {
     "ms": {
-      "version": "20240401183349",
+      "version": "20240423200108",
       "chrome_resources": {
         "alerts": "chrome/ms/locale/ms/alerts/",
         "autoconfig": "chrome/ms/locale/ms/autoconfig/",

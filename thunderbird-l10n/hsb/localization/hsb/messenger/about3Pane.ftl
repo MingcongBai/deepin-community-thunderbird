@@ -516,21 +516,45 @@ apply-current-view-to-folder-with-children-message = Napohlad aktualneho rjadowa
 # Variables:
 # $unread (Number) - Number of unread messages in thread.
 # $total (Number) - Number of messages in thread.
-threadpane-sort-header-unread =
-    { $total ->
-        [one] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span>nječitana z <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> powěsće
-        [two] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span>nječitanej z <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> powěsćow
-        [few] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span>nječitane z <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> powěsćow
-       *[other] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span>nječitanych z <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> powěsćow
+threadpane-sort-header-unread-count =
+    { $unread ->
+        [one]
+            { $total ->
+                [one] { "<span>{ $unread }</span> nječitana z <span>{ $total }</span> powěsće" }
+                [two] { "<span>{ $unread }</span> nječitana z <span>{ $total }</span> powěsćow" }
+                [few] { "<span>{ $unread }</span> nječitana z <span>{ $total }</span> powěsćow" }
+               *[other] { "<span>{ $unread }</span> nječitana z <span>{ $total }</span> powěsćow" }
+            }
+        [two]
+            { $total ->
+                [one] { "<span>{ $unread }</span> nječitanej z <span>{ $total }</span> powěsće" }
+                [two] { "<span>{ $unread }</span> nječitanej z <span>{ $total }</span> powěsćow" }
+                [few] { "<span>{ $unread }</span> nječitane z <span>{ $total }</span> powěsćow" }
+               *[other] { "<span>{ $unread }</span> nječitanych z <span>{ $total }</span> powěsćow" }
+            }
+        [few]
+            { $total ->
+                [one] { "<span>{ $unread }</span> nječitane z <span>{ $total }</span> powěsće" }
+                [two] { "<span>{ $unread }</span> nječitane z <span>{ $total }</span> powěsćow" }
+                [few] { "<span>{ $unread }</span> nječitane z <span>{ $total }</span> powěsćow" }
+               *[other] { "<span>{ $unread }</span> nječitane z <span>{ $total }</span> powěsćow" }
+            }
+       *[other]
+            { $total ->
+                [one] { "<span>{ $unread }</span> nječitanych z <span>{ $total }</span> powěsće" }
+                [two] { "<span>{ $unread }</span> nječitanych z <span>{ $total }</span> powěsćow" }
+                [few] { "<span>{ $unread }</span> nječitanych z <span>{ $total }</span> powěsćow" }
+               *[other] { "<span>{ $unread }</span> nječitanych z <span>{ $total }</span> powěsćow" }
+            }
     }
 # Variables:
 # $total (Number) - Number of messages in thread.
-threadpane-sort-header =
+threadpane-sort-header-count =
     { $total ->
-        [one] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> powěsć
-        [two] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> powěsći
-        [few] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> powěsće
-       *[other] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> powěsćow
+        [one] <span>{ $total }</span> powěsć
+        [two] <span>{ $total }</span> powěsći
+        [few] <span>{ $total }</span> powěsće
+       *[other] <span>{ $total }</span> powěsćow
     }
 threadpane-card-menu-button =
     .title = Powěsćowy meni

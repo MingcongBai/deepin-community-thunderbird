@@ -9,11 +9,11 @@
     }
   },
   "name": "Language: O‘zbek (Uzbek)",
-  "description": "Thunderbird Beta Language Pack for O‘zbek (uz) – Uzbek",
-  "version": "125.0.20240401.173510",
+  "description": "Thunderbird Language Pack for O‘zbek (uz) – Uzbek",
+  "version": "125.0.20240423.190814",
   "languages": {
     "uz": {
-      "version": "20240401183313",
+      "version": "20240423200004",
       "chrome_resources": {
         "alerts": "chrome/uz/locale/uz/alerts/",
         "autoconfig": "chrome/uz/locale/uz/autoconfig/",

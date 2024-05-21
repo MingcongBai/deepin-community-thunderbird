@@ -9,11 +9,11 @@
     }
   },
   "name": "Language: Português (BR)",
-  "description": "Thunderbird Beta Language Pack for Português (BR) (pt-BR) – Brazilian Portuguese",
-  "version": "125.0.20240401.173510",
+  "description": "Thunderbird Language Pack for Português (BR) (pt-BR) – Brazilian Portuguese",
+  "version": "125.0.20240423.190814",
   "languages": {
     "pt-BR": {
-      "version": "20240401183229",
+      "version": "20240423195735",
       "chrome_resources": {
         "alerts": "chrome/pt-BR/locale/pt-BR/alerts/",
         "autoconfig": "chrome/pt-BR/locale/pt-BR/autoconfig/",

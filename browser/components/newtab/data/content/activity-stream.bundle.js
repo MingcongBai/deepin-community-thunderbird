@@ -2213,10 +2213,12 @@ class SafeAnchor extends (external_React_default()).PureComponent {
   render() {
     const {
       url,
-      className
+      className,
+      title
     } = this.props;
     return /*#__PURE__*/external_React_default().createElement("a", {
       href: this.safeURI(url),
+      title: title,
       className: className,
       onClick: this.onClick
     }, this.props.children);
@@ -2267,7 +2269,7 @@ function FeatureHighlight({
   position = "top-left",
   title,
   ariaLabel,
-  source = "FEATURE_HIGHLIGHT_DEFAULT",
+  feature = "FEATURE_HIGHLIGHT_DEFAULT",
   dispatch = () => {},
   windowObj = __webpack_require__.g
 }) {
@@ -2285,12 +2287,17 @@ function FeatureHighlight({
     };
   }, [windowObj]);
   const onToggleClick = (0,external_React_namespaceObject.useCallback)(() => {
+    if (!opened) {
+      dispatch(actionCreators.DiscoveryStreamUserEvent({
+        event: "CLICK",
+        source: "FEATURE_HIGHLIGHT",
+        value: {
+          feature
+        }
+      }));
+    }
     setOpened(!opened);
-    dispatch(actionCreators.DiscoveryStreamUserEvent({
-      event: "CLICK",
-      source
-    }));
-  }, [dispatch, source, opened]);
+  }, [dispatch, feature, opened]);
   const openedClassname = opened ? `opened` : `closed`;
   return /*#__PURE__*/external_React_default().createElement("div", {
     ref: ref,
@@ -2330,7 +2337,7 @@ function SponsoredContentHighlight({
     position: position,
     ariaLabel: "Sponsored content supports our mission to build a better web.",
     title: "Sponsored content more info",
-    source: "FEATURE_HIGHLIGHT_SPONSORED_CONTENT",
+    feature: "SPONSORED_CONTENT_INFO",
     dispatch: dispatch,
     message: /*#__PURE__*/external_React_default().createElement("span", null, "Sponsored content supports our mission to build a better web.", " ", /*#__PURE__*/external_React_default().createElement(SafeAnchor, {
       dispatch: dispatch,
@@ -2629,7 +2636,6 @@ const DefaultMeta = ({
   sponsor: sponsor,
   sponsored_by_override: sponsored_by_override
 }), /*#__PURE__*/external_React_default().createElement("header", {
-  title: title,
   className: "title clamp"
 }, title), excerpt && /*#__PURE__*/external_React_default().createElement("p", {
   className: "excerpt clamp"
@@ -2880,7 +2886,7 @@ class _DSCard extends (external_React_default()).PureComponent {
         "data-l10n-id": "newtab-pocket-save"
       })));
     };
-    return /*#__PURE__*/external_React_default().createElement("div", {
+    return /*#__PURE__*/external_React_default().createElement("article", {
       className: `ds-card ${compactImagesClassName} ${imageGradientClassName} ${titleLinesName} ${descLinesClassName} ${ctaButtonClassName} ${ctaButtonVariantClassName}`,
       ref: this.setContextMenuButtonHostRef
     }, /*#__PURE__*/external_React_default().createElement("div", {
@@ -2897,7 +2903,8 @@ class _DSCard extends (external_React_default()).PureComponent {
       className: "ds-card-link",
       dispatch: this.props.dispatch,
       onLinkClick: !this.props.placeholder ? this.onLinkClick : undefined,
-      url: this.props.url
+      url: this.props.url,
+      title: this.props.title
     }, /*#__PURE__*/external_React_default().createElement(ImpressionStats_ImpressionStats, {
       flightId: this.props.flightId,
       rows: [{

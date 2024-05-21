@@ -9,11 +9,11 @@
     }
   },
   "name": "Language: Norsk Bokmål (Norwegian Bokmål)",
-  "description": "Thunderbird Beta Language Pack for Norsk Bokmål (nb-NO) – Norwegian Bokmål",
-  "version": "125.0.20240401.173510",
+  "description": "Thunderbird Language Pack for Norsk Bokmål (nb-NO) – Norwegian Bokmål",
+  "version": "125.0.20240423.190814",
   "languages": {
     "nb-NO": {
-      "version": "20240401183431",
+      "version": "20240423200150",
       "chrome_resources": {
         "alerts": "chrome/nb-NO/locale/nb-NO/alerts/",
         "autoconfig": "chrome/nb-NO/locale/nb-NO/autoconfig/",

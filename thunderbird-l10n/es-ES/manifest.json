@@ -9,11 +9,11 @@
     }
   },
   "name": "Language: Español (ES) (Spanish, Spain)",
-  "description": "Thunderbird Beta Language Pack for Español (ES) (es-ES) – Spanish, Spain",
-  "version": "125.0.20240401.173510",
+  "description": "Thunderbird Language Pack for Español (ES) (es-ES) – Spanish, Spain",
+  "version": "125.0.20240423.190814",
   "languages": {
     "es-ES": {
-      "version": "20240401183344",
+      "version": "20240423200101",
       "chrome_resources": {
         "alerts": "chrome/es-ES/locale/es-ES/alerts/",
         "autoconfig": "chrome/es-ES/locale/es-ES/autoconfig/",

@@ -9,11 +9,11 @@
     }
   },
   "name": "Language: 日本語 (Japanese)",
-  "description": "Thunderbird Beta Language Pack for 日本語 (ja) – Japanese",
-  "version": "125.0.20240401.173510",
+  "description": "Thunderbird Language Pack for 日本語 (ja) – Japanese",
+  "version": "125.0.20240423.190814",
   "languages": {
     "ja": {
-      "version": "20240401183234",
+      "version": "20240423195534",
       "chrome_resources": {
         "alerts": "chrome/ja/locale/ja/alerts/",
         "autoconfig": "chrome/ja/locale/ja/autoconfig/",

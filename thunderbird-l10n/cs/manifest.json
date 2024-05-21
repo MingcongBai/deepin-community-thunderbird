@@ -9,11 +9,11 @@
     }
   },
   "name": "Language: Čeština (Czech)",
-  "description": "Thunderbird Beta Language Pack for Čeština (cs) – Czech",
-  "version": "125.0.20240401.173510",
+  "description": "Thunderbird Language Pack for Čeština (cs) – Czech",
+  "version": "125.0.20240423.190814",
   "languages": {
     "cs": {
-      "version": "20240401183443",
+      "version": "20240423195818",
       "chrome_resources": {
         "alerts": "chrome/cs/locale/cs/alerts/",
         "autoconfig": "chrome/cs/locale/cs/autoconfig/",

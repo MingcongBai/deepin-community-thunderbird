@@ -9,11 +9,11 @@
     }
   },
   "name": "Language: Dolnoserbšćina (Lower Sorbian)",
-  "description": "Thunderbird Beta Language Pack for Dolnoserbšćina (dsb) – Lower Sorbian",
-  "version": "125.0.20240401.173510",
+  "description": "Thunderbird Language Pack for Dolnoserbšćina (dsb) – Lower Sorbian",
+  "version": "125.0.20240423.190814",
   "languages": {
     "dsb": {
-      "version": "20240401183408",
+      "version": "20240423195654",
       "chrome_resources": {
         "alerts": "chrome/dsb/locale/dsb/alerts/",
         "autoconfig": "chrome/dsb/locale/dsb/autoconfig/",

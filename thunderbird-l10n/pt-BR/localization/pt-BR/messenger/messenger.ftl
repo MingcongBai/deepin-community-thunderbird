@@ -188,6 +188,36 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+context-menu-mark-read =
+    .aria-label = Marcar como lida
+    .tooltiptext = Marcar como lida
+context-menu-mark-unread =
+    .aria-label = Marcar como não lida
+    .tooltiptext = Marcar como não lida
+context-menu-mark-reply =
+    .aria-label = Responder
+    .tooltiptext = Responder
+context-menu-archive =
+    .aria-label = Arquivar
+    .tooltiptext = Arquivar
+context-menu-mark-junk =
+    .aria-label = Marcar como spam
+    .tooltiptext = Marcar como spam
+mail-context-menu-open =
+    .label = Abrir
+    .accesskey = O
+mail-context-menu-reply =
+    .label = Responder
+    .accesskey = R
+mail-context-menu-forward-redirect =
+    .label = Encaminhar e redirecionar
+    .accesskey = E
+mail-context-menu-organize =
+    .label = Organizar
+    .accesskey = O
+mail-context-menu-threads =
+    .label = Tópicos
+    .accesskey = T
 context-menu-redirect-msg =
     .label = Redirecionar
 # This menu item is for canceling an NNTP message
@@ -209,6 +239,24 @@ mail-context-undelete-messages =
             [one] Restaurar mensagem
            *[other] Restaurar mensagens selecionadas
         }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-delete =
+    .label =
+        { $count ->
+            [one] Excluir mensagem
+           *[other] Excluir mensagens selecionadas
+        }
+    .tooltiptext = { mail-context-messages-delete.label }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-undelete =
+    .label =
+        { $count ->
+            [one] Restaurar mensagem
+           *[other] Restaurar mensagens selecionadas
+        }
+    .tooltiptext = { mail-context-messages-undelete.label }
 context-menu-decrypt-to-folder2 =
     .label = Criar cópia descriptografada em
     .accesskey = d

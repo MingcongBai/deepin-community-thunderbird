@@ -9,11 +9,11 @@
     }
   },
   "name": "Language: Frysk (Frisian)",
-  "description": "Thunderbird Beta Language Pack for Frysk (fy-NL) – Frisian",
-  "version": "125.0.20240401.173510",
+  "description": "Thunderbird Language Pack for Frysk (fy-NL) – Frisian",
+  "version": "125.0.20240423.190814",
   "languages": {
     "fy-NL": {
-      "version": "20240401183029",
+      "version": "20240423195741",
       "chrome_resources": {
         "alerts": "chrome/fy-NL/locale/fy-NL/alerts/",
         "autoconfig": "chrome/fy-NL/locale/fy-NL/autoconfig/",

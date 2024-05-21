@@ -9,11 +9,11 @@
     }
   },
   "name": "Language: Gaeilge (Irish)",
-  "description": "Thunderbird Beta Language Pack for Gaeilge (ga-IE) – Irish",
-  "version": "125.0.20240401.173510",
+  "description": "Thunderbird Language Pack for Gaeilge (ga-IE) – Irish",
+  "version": "125.0.20240423.190814",
   "languages": {
     "ga-IE": {
-      "version": "20240401183114",
+      "version": "20240423195823",
       "chrome_resources": {
         "alerts": "chrome/ga-IE/locale/ga-IE/alerts/",
         "autoconfig": "chrome/ga-IE/locale/ga-IE/autoconfig/",

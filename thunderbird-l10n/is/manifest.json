@@ -9,11 +9,11 @@
     }
   },
   "name": "Language: Islenska (Icelandic)",
-  "description": "Thunderbird Beta Language Pack for Islenska (is) – Icelandic",
-  "version": "125.0.20240401.173510",
+  "description": "Thunderbird Language Pack for Islenska (is) – Icelandic",
+  "version": "125.0.20240423.190814",
   "languages": {
     "is": {
-      "version": "20240401183427",
+      "version": "20240423200236",
       "chrome_resources": {
         "alerts": "chrome/is/locale/is/alerts/",
         "autoconfig": "chrome/is/locale/is/autoconfig/",

@@ -9,11 +9,11 @@
     }
   },
   "name": "Language: Svenska (Swedish)",
-  "description": "Thunderbird Beta Language Pack for Svenska (sv-SE) – Swedish",
-  "version": "125.0.20240401.173510",
+  "description": "Thunderbird Language Pack for Svenska (sv-SE) – Swedish",
+  "version": "125.0.20240423.190814",
   "languages": {
     "sv-SE": {
-      "version": "20240401182938",
+      "version": "20240423195647",
       "chrome_resources": {
         "alerts": "chrome/sv-SE/locale/sv-SE/alerts/",
         "autoconfig": "chrome/sv-SE/locale/sv-SE/autoconfig/",

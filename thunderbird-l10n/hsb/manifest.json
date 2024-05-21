@@ -9,11 +9,11 @@
     }
   },
   "name": "Language: Hornjoserbšćina (Upper Sorbian)",
-  "description": "Thunderbird Beta Language Pack for Hornjoserbšćina (hsb) – Upper Sorbian",
-  "version": "125.0.20240401.173510",
+  "description": "Thunderbird Language Pack for Hornjoserbšćina (hsb) – Upper Sorbian",
+  "version": "125.0.20240423.190814",
   "languages": {
     "hsb": {
-      "version": "20240401183534",
+      "version": "20240423195806",
       "chrome_resources": {
         "alerts": "chrome/hsb/locale/hsb/alerts/",
         "autoconfig": "chrome/hsb/locale/hsb/autoconfig/",

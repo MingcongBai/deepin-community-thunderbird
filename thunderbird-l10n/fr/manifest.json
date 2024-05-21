@@ -9,11 +9,11 @@
     }
   },
   "name": "Language: Français (French)",
-  "description": "Thunderbird Beta Language Pack for Français (fr) – French",
-  "version": "125.0.20240401.173510",
+  "description": "Thunderbird Language Pack for Français (fr) – French",
+  "version": "125.0.20240423.190814",
   "languages": {
     "fr": {
-      "version": "20240401182946",
+      "version": "20240423195658",
       "chrome_resources": {
         "alerts": "chrome/fr/locale/fr/alerts/",
         "autoconfig": "chrome/fr/locale/fr/autoconfig/",

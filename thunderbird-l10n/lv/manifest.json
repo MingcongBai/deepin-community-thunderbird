@@ -9,11 +9,11 @@
     }
   },
   "name": "Language: Latviešu (Latvian)",
-  "description": "Thunderbird Beta Language Pack for Latviešu (lv) – Latvian",
-  "version": "125.0.20240401.173510",
+  "description": "Thunderbird Language Pack for Latviešu (lv) – Latvian",
+  "version": "125.0.20240423.190814",
   "languages": {
     "lv": {
-      "version": "20240401183308",
+      "version": "20240423200026",
       "chrome_resources": {
         "alerts": "chrome/lv/locale/lv/alerts/",
         "autoconfig": "chrome/lv/locale/lv/autoconfig/",

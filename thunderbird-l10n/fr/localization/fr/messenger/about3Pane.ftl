@@ -504,17 +504,25 @@ apply-current-view-to-folder-with-children-message = Appliquer la vue de ce doss
 # Variables:
 # $unread (Number) - Number of unread messages in thread.
 # $total (Number) - Number of messages in thread.
-threadpane-sort-header-unread =
-    { $total ->
-        [one] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> non lu sur <span data-l10n-name="threadpane-sort-header-total-count"> { $total }</span> messages
-       *[other] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> non lus sur <span data-l10n-name="threadpane-sort-header-total-count"> { $total }</span> messages
+threadpane-sort-header-unread-count =
+    { $unread ->
+        [one]
+            { $total ->
+                [one] <span>1</span> message non lu sur <span>1</span>
+               *[other] <span>1</span> message non lu sur <span>{ $total }</span>
+            }
+       *[other]
+            { $total ->
+                [one] <span>{ $unread }</span> messages non lus sur <span>1</span>
+               *[other] <span>{ $unread }</span> messages non lus sur <span>{ $total }</span>
+            }
     }
 # Variables:
 # $total (Number) - Number of messages in thread.
-threadpane-sort-header =
+threadpane-sort-header-count =
     { $total ->
-        [one] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> message
-       *[other] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> messages
+        [one] <span>1</span> message
+       *[other] <span>{ $total }</span> messages
     }
 threadpane-card-menu-button =
     .title = Menu du message

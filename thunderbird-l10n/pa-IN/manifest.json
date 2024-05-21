@@ -9,11 +9,11 @@
     }
   },
   "name": "Language: ਪੰਜਾਬੀ (Punjabi)",
-  "description": "Thunderbird Beta Language Pack for ਪੰਜਾਬੀ (pa-IN) – Punjabi",
-  "version": "125.0.20240401.173510",
+  "description": "Thunderbird Language Pack for ਪੰਜਾਬੀ (pa-IN) – Punjabi",
+  "version": "125.0.20240423.190814",
   "languages": {
     "pa-IN": {
-      "version": "20240401183102",
+      "version": "20240423195611",
       "chrome_resources": {
         "alerts": "chrome/pa-IN/locale/pa-IN/alerts/",
         "autoconfig": "chrome/pa-IN/locale/pa-IN/autoconfig/",

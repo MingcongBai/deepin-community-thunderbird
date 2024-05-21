@@ -9,11 +9,11 @@
     }
   },
   "name": "Language: Shqip (Albanian)",
-  "description": "Thunderbird Beta Language Pack for Shqip (sq) – Albanian",
-  "version": "125.0.20240401.173510",
+  "description": "Thunderbird Language Pack for Shqip (sq) – Albanian",
+  "version": "125.0.20240423.190814",
   "languages": {
     "sq": {
-      "version": "20240401182812",
+      "version": "20240423195518",
       "chrome_resources": {
         "alerts": "chrome/sq/locale/sq/alerts/",
         "autoconfig": "chrome/sq/locale/sq/autoconfig/",

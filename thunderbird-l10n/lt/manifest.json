@@ -9,11 +9,11 @@
     }
   },
   "name": "Language: Lietuvių (Lithuanian)",
-  "description": "Thunderbird Beta Language Pack for Lietuvių (lt) – Lithuanian",
-  "version": "125.0.20240401.173510",
+  "description": "Thunderbird Language Pack for Lietuvių (lt) – Lithuanian",
+  "version": "125.0.20240423.190814",
   "languages": {
     "lt": {
-      "version": "20240401183226",
+      "version": "20240423195944",
       "chrome_resources": {
         "alerts": "chrome/lt/locale/lt/alerts/",
         "autoconfig": "chrome/lt/locale/lt/autoconfig/",

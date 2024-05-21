@@ -9,11 +9,11 @@
     }
   },
   "name": "Language: Kaqchikel",
-  "description": "Thunderbird Beta Language Pack for Kaqchikel (cak)",
-  "version": "125.0.20240401.173510",
+  "description": "Thunderbird Language Pack for Kaqchikel (cak)",
+  "version": "125.0.20240423.190814",
   "languages": {
     "cak": {
-      "version": "20240401183401",
+      "version": "20240423195735",
       "chrome_resources": {
         "alerts": "chrome/cak/locale/cak/alerts/",
         "autoconfig": "chrome/cak/locale/cak/autoconfig/",

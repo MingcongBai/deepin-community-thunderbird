@@ -4,7 +4,6 @@
 
 about-reader-loading = Загрузка…
 about-reader-load-error = Не ўдалося загрузіць артыкул са старонкі
-
 about-reader-color-scheme-light = Светлы
     .title = Колеравая схема Светлая
 about-reader-color-scheme-dark = Цёмны
@@ -13,7 +12,20 @@ about-reader-color-scheme-sepia = Сэпія
     .title = Колеравая схема Сэпія
 about-reader-color-scheme-auto = Аўта
     .title = Аўтаматычная колеравая схема
-
+about-reader-color-theme-light = Светлая
+    .title = Светлая колеравая схема
+about-reader-color-theme-dark = Цёмная
+    .title = Цёмная колеравая схема
+about-reader-color-theme-sepia = Сэпія
+    .title = Колеравая схема "сэпія"
+about-reader-color-theme-auto = Аўта
+    .title = Аўтаматычная колеравая схема
+about-reader-color-theme-gray = Шэрая
+    .title = Шэрая колеравая схема
+about-reader-color-theme-contrast = Кантрасная
+    .title = Кантрасная колеравая схема
+about-reader-color-theme-custom = Уласныя колеры
+    .title = Уласная колеравая схема
 # An estimate for how long it takes to read an article,
 # expressed as a range covering both slow and fast readers.
 # Variables:
@@ -50,4 +62,27 @@ about-reader-font-type-sans-serif = Без засечак
 
 about-reader-toolbar-close = Закрыць Рэжым чытання
 about-reader-toolbar-type-controls = Налады шрыфтоў
+about-reader-toolbar-color-controls = Колеры
 about-reader-toolbar-savetopocket = Захаваць у { -pocket-brand-name }
+
+## Reader View colors menu
+
+about-reader-colors-menu-header = Тэма
+about-reader-fxtheme-tab = Прадвызначана
+about-reader-customtheme-tab = Адмыслова
+
+## These are used as labels for the custom theme color pickers.
+## The .title element is used to make the editing functionality
+## clear and give context for screen reader users.
+
+about-reader-custom-colors-foreground = Тэкст
+    .title = Змяніць колер
+about-reader-custom-colors-background = Фон
+    .title = Змяніць колер
+about-reader-custom-colors-unvisited-links = Ненаведаныя спасылкі
+    .title = Змяніць колер
+about-reader-custom-colors-visited-links = Наведаныя спасылкі
+    .title = Змяніць колер
+about-reader-custom-colors-selection-highlight = Падфарбоўка для чытання ўслых
+    .title = Змяніць колер
+about-reader-custom-colors-reset-button = Скінуць да прадвызначаных

@@ -503,17 +503,25 @@ apply-current-view-to-folder-with-children-message = Ағымдағы бума �
 # Variables:
 # $unread (Number) - Number of unread messages in thread.
 # $total (Number) - Number of messages in thread.
-threadpane-sort-header-unread =
-    { $total ->
-        [one] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> оқылмаған, барлығы <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> хабарлама
-       *[other] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> оқылмаған, барлығы <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> хабарлама
+threadpane-sort-header-unread-count =
+    { $unread ->
+        [one]
+            { $total ->
+                [one] <span>1</span> хабарлама оқылмаған, <span>1</span> ішінен
+               *[other] <span>1</span> хабарлама оқылмаған, <span>{ $total }</span> ішінен
+            }
+       *[other]
+            { $total ->
+                [one] <span>{ $unread }</span> хабарлама оқылмаған, <span>1</span> ішінен
+               *[other] <span>{ $unread }</span> хабарлама оқылмаған, <span>{ $total }</span> ішінен
+            }
     }
 # Variables:
 # $total (Number) - Number of messages in thread.
-threadpane-sort-header =
+threadpane-sort-header-count =
     { $total ->
-        [one] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> хабарлама
-       *[other] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> хабарлама
+        [one] <span>1</span> хабарлама
+       *[other] <span>{ $total }</span> хабарлама
     }
 threadpane-card-menu-button =
     .title = Хабарлама мәзірі

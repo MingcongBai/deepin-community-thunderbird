@@ -9,11 +9,11 @@
     }
   },
   "name": "Language: Brezhoneg (Breton)",
-  "description": "Thunderbird Beta Language Pack for Brezhoneg (br) – Breton",
-  "version": "125.0.20240401.173510",
+  "description": "Thunderbird Language Pack for Brezhoneg (br) – Breton",
+  "version": "125.0.20240423.190814",
   "languages": {
     "br": {
-      "version": "20240401183237",
+      "version": "20240423195610",
       "chrome_resources": {
         "alerts": "chrome/br/locale/br/alerts/",
         "autoconfig": "chrome/br/locale/br/autoconfig/",
